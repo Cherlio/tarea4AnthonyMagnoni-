@@ -47,6 +47,11 @@ public class Coche {
     public void setSport(boolean sport) {
         this.sport = sport;
     }
+
+    @Override
+    public String toString() {
+        return "Coche{" + "puertas=" + puertas + ", rueda=" + rueda + ", sport=" + sport + '}';
+    }
     
     
     
