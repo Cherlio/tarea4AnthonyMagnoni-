@@ -14,5 +14,16 @@ public class Coche {
     private int puertas;
     private int rueda;
     private boolean sport;
+
+    public Coche() {
+    }
+
+    public Coche(int puertas, int rueda, boolean sport) {
+        this.puertas = puertas;
+        this.rueda = rueda;
+        this.sport = sport;
+    }
+    
+    
     
 }
