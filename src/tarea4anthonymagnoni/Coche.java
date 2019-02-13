@@ -23,6 +23,30 @@ public class Coche {
         this.rueda = rueda;
         this.sport = sport;
     }
+
+    public int getPuertas() {
+        return puertas;
+    }
+
+    public void setPuertas(int puertas) {
+        this.puertas = puertas;
+    }
+
+    public int getRueda() {
+        return rueda;
+    }
+
+    public void setRueda(int rueda) {
+        this.rueda = rueda;
+    }
+
+    public boolean isSport() {
+        return sport;
+    }
+
+    public void setSport(boolean sport) {
+        this.sport = sport;
+    }
     
     
     
